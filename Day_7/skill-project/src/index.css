@@ -101,6 +101,8 @@ main {
   padding: 15px;
 
   width: 300px;
+  border-radius: 10px;
+  border: 2px solid #007bff;
 }
 
 .courses {
@@ -119,6 +121,7 @@ main {
   width: 250px;
 
   border-radius: 15px;
+  transition: 0.3s;
 }
 
 footer {
@@ -142,4 +145,8 @@ footer {
   background: #333;
 
   color: white;
+}
+
+.card:hover {
+  transform: translateY(-5px);
 }
